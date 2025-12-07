@@ -85,3 +85,5 @@ p1.greet()
 #### It tells Python what to print when you do:
 
 #### Without __str__, printing the object gives something like:
+---
+![Alt text](Types-OOPs.png)

@@ -1,10 +1,15 @@
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+class User:
+    def __init__(self, username, email, password):
+      self.username = username
+      self.email = email
+      self.password = password
 
-  def __str__(self):
-      return f"{self.name}({self.age})"
+    def say_hi_to_user(self, user):
+      print(f"Sending message to {user.user}")
 
-p1 = Person("Tobias", 36)
-print(p1)
+user1 = User("Mark", "example@gmail.com", "1234")
+user2 = User("Booking.com", "example@gmail.com", "1234")
+
+user1.say_hi_to_user(user2)
+
+    
