@@ -1,15 +1,22 @@
-class User:
-    def __init__(self, username, email, password):
-      self.username = username
-      self.email = email
-      self.password = password
+class A:
+  def m1(self):
+    print("m1 in class A")
 
-    def say_hi_to_user(self, user):
-      print(f"Sending message to {user.user}")
+class B(A):
+  def m2(self):
+    print("m2 in class B")
 
-user1 = User("Mark", "example@gmail.com", "1234")
-user2 = User("Booking.com", "example@gmail.com", "1234")
+class C(A):
+  def m3(self):
+    print("m2 in class C")
 
-user1.say_hi_to_user(user2)
+class D(B, C):
+  def m4(self):
+    print("m2 in class D")
 
-    
+d = D()
+
+d.m1()
+d.m2()
+d.m3()
+d.m4()
