@@ -12,7 +12,7 @@ structure our code using classes and objects.
 -   Protect data (encapsulation)
 -   Build real-world models (objects)
 
-------------------------------------------------------------------------
+---
 
 ## 2. Class and Object
 
@@ -26,7 +26,7 @@ class Person:
 person1 = Person()
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 3. Attributes and Methods
 
@@ -46,7 +46,7 @@ p1 = Person("Ebraam", 22)
 print(p1.greet())
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 4. The `__init__` Constructor
 
@@ -57,13 +57,13 @@ def __init__(self, name):
     self.name = name
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 5. `self` Keyword
 
 `self` refers to the current object.
 
-------------------------------------------------------------------------
+---
 
 ## 6. Encapsulation (Data Protection)
 
@@ -76,7 +76,7 @@ class Bank:
         return self.__balance
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 7. Inheritance
 
@@ -93,7 +93,7 @@ d = Dog()
 print(d.speak())
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 8. Multiple Inheritance
 
@@ -113,7 +113,7 @@ c = C()
 print(c.method_a(), c.method_b())
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 9. Polymorphism
 
@@ -127,7 +127,7 @@ class Dog:
         return "Woof"
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 10. Abstraction
 
@@ -147,7 +147,7 @@ class Square(Shape):
         return self.side * self.side
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 11. Class Methods & Static Methods
 
@@ -171,7 +171,7 @@ class Math:
         return a + b
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 12. Magic (Dunder) Methods
 
@@ -196,7 +196,7 @@ class Book:
         return self.pages
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 13. OOP Examples
 

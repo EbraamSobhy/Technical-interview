@@ -2,4 +2,4 @@
 
 source venv/bin/activate
 
-pyhton3 app.py
+python3 app.py

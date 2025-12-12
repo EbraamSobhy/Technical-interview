@@ -1,22 +1,18 @@
-class A:
-  def m1(self):
-    print("m1 in class A")
+class Dog:
+    def speak(self):
+        return "Woof!"
 
-class B(A):
-  def m2(self):
-    print("m2 in class B")
+class Cat:
+    def speak(self):
+        return "Meow!"
 
-class C(A):
-  def m3(self):
-    print("m2 in class C")
+class Robot:
+    def speak(self):
+        return "Beep!"
 
-class D(B, C):
-  def m4(self):
-    print("m2 in class D")
+def make_sound(obj):
+    print(obj.speak())  # No matter what the object is!
 
-d = D()
-
-d.m1()
-d.m2()
-d.m3()
-d.m4()
+make_sound(Dog())
+make_sound(Cat())
+make_sound(Robot())
