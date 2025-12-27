@@ -86,4 +86,4 @@ p1.greet()
 
 #### Without __str__, printing the object gives something like:
 ---
-![Alt text](Types-OOPs.png)
+![Types-OOPs](Types-OOPs.png)
