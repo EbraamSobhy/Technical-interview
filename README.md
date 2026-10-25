@@ -1,4 +1,4 @@
-# Prepare for Technical Interview & Problem Solving with Python
+# Prepare for Technical Interview & Problem Solving with TypeScript
 ## Target: about 250 problems
 
 ### Data Structures & Algorithms (DSA)
@@ -7,7 +7,7 @@
 -  Complexity Analysis or Time Complexity → Big O notation
 -  Problem Solving (100)
 - Solid Principles
-- Unit testing (pytest)
+- Unit testing (Jest)
 - Design Patterns
 
 ## Breakdown by Difficulty
