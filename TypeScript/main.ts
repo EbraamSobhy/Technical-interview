@@ -1,6 +1,6 @@
 /*
  * npx tsx main.ts
- * OOP TypeScript Code example
+ * Data Structures TypeScript Code example
 */
 
 
